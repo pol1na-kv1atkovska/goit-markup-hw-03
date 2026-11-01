@@ -5,8 +5,13 @@
 }
 
 .portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 .portfolio-item {
+  width: calc((100% - 24px * 2) / 3);
   background-color: #fff;
 }
 
@@ -14,9 +19,18 @@
 }
 
 .portfolio-info {
+  padding: 32px 16px;
+
   background-color: #fff;
+
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
+
 .portfolio-caption {
+  margin-bottom: 8px;
 }
+
 .portfolio-type {
+  margin: 0;
 }

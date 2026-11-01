@@ -1,5 +1,14 @@
 .footer {
+  padding: 100px 0;
+
   background-color: #2e2f42;
+}
+
+.footer-left {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 264px;
 }
 
 .footer .logo {
@@ -7,6 +16,8 @@
 }
 
 .footer-desc {
+  margin: 0;
+
   font-weight: 400;
   color: #f4f4fd;
 }

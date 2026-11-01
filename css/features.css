@@ -2,15 +2,21 @@
   background-color: #fff;
 }
 .features-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
 }
 .features-item {
+  width: 264px;
 }
 .features-subtitle {
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   color: #2e2f42;
 }
 .features-desc {
+  margin: 0;
   font-weight: 400;
 }

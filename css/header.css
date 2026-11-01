@@ -1,16 +1,32 @@
 .header {
 }
 
+.header .container {
+  display: flex;
+  align-items: center;
+}
+
 .main-nav {
+  margin-right: auto;
+  margin-left: 76px;
 }
+
 .main-nav-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
 }
+
 .main-nav-list-item {
 }
+
 .main-nav-list-link {
+  display: block;
+  padding: 24px 0;
   font-weight: 500;
   color: #2e2f42;
 }
+
 .main-nav-list-link:hover,
 .main-nav-list-link:focus {
   color: #404bbf;
@@ -19,10 +35,17 @@
 .address {
 }
 .address-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
 }
+
 .address-list-item {
 }
+
 .address-list-link {
+  display: block;
+  padding: 24px 0;
   font-weight: 400;
 }
 
