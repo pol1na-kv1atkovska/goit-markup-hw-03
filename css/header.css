@@ -1,0 +1,32 @@
+.header {
+}
+
+.main-nav {
+}
+.main-nav-list {
+}
+.main-nav-list-item {
+}
+.main-nav-list-link {
+  font-weight: 500;
+  color: #2e2f42;
+}
+.main-nav-list-link:hover,
+.main-nav-list-link:focus {
+  color: #404bbf;
+}
+
+.address {
+}
+.address-list {
+}
+.address-list-item {
+}
+.address-list-link {
+  font-weight: 400;
+}
+
+.address-list-link:hover,
+.address-list-link:focus {
+  color: #404bbf;
+}
